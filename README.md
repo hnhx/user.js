@@ -32,12 +32,12 @@ Close Firefox now!
 
 Remove the content of the directory 
 ```
-rm -rf $HOME/.mozilla/firefox/(YOUR PROFILE DIR)/*
+rm -rf $HOME/.mozilla/firefox/*.default-release/*
 ```
 
 Now move the content of the repo to your profile directory
 ```
-cp user.js/firefox/* $HOME/.mozilla/firefox/(YOUR PROFILE DIR)
+cp user.js/firefox/* $HOME/.mozilla/firefox/*.default-release
 ```
 
 Done! Now you can open Firefox again!
@@ -53,3 +53,13 @@ Done! Now you can open Firefox again!
 Arkenfox improves on the situation however as you can see on the image Firefox still makes multiple connection to Google and other servers (the firefox related connections are in the red area).
 <br><br>
 You can replicate the results with the `iftop` tool.
+
+<br>
+
+## Donate ❤️
+
+If you like my projects please consider donating!
+
+Bitcoin (BTC): `bc1qs43kh6tvhch02dtsp7x7hcrwj8fwe4rzy7lp0h`
+<br>
+Monero (XMR): `41dGQr9EwZBfYBY3fibTtJZYfssfRuzJZDSVDeneoVcgckehK3BiLxAV4FvEVJiVqdiW996zvMxhFB8G8ot9nBFqQ84VkuC`
