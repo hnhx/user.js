@@ -5,7 +5,7 @@
 
 ## About this user.js
 
-This user.js aims at disabling all Firefox telemetry (spyware), it also hardens the browser and replaces the spyware search engines with privacy respecting ones.
+This user.js aims at disabling all Firefox telemetry (spyware), it also hardens the browser, installs uBlock Origin and replaces the spyware search engines with privacy respecting ones.
 
 <br>
 
