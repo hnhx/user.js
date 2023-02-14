@@ -17,30 +17,13 @@ Just simply disabling telemetry in the settings is not enough anymore, Firefox w
 
 ## How to use (GNU/Linux)
 
-Clone the repo
+WARNING: This will remove everything from your default profile.
+
 ```
 git clone https://github.com/hnhx/user.js
+cd user.js
+./install.sh
 ```
-
-Find your Firefox profile directory, it will probably look like this: (random string).default-release
-```
-ls $HOME/.mozilla/firefox
-```
-
-Close Firefox now!
-<br>
-
-Remove the content of the directory 
-```
-rm -rf $HOME/.mozilla/firefox/*.default-release/*
-```
-
-Now move the content of the repo to your profile directory
-```
-cp user.js/firefox/* $HOME/.mozilla/firefox/*.default-release
-```
-
-Done! Now you can open Firefox again!
 
 <br>
 
