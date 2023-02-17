@@ -77,6 +77,7 @@ user_pref("browser.download.useDownloadDir", false);
 user_pref("browser.aboutConfig.showWarning", false);
 user_pref("browser.toolbars.bookmarks.visibility", "never");
 user_pref("browser.tabs.firefox-view", false);
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 
 // Privacy & Freedom Issues
 // https://webdevelopmentaid.wordpress.com/2013/10/21/customize-privacy-settings-in-mozilla-firefox-part-1-aboutconfig/
