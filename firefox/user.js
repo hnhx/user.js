@@ -101,9 +101,9 @@ user_pref("security.OCSP.enabled", 0);
 user_pref("security.OCSP.require", false);
 user_pref("browser.discovery.containers.enabled", false);
 user_pref("browser.discovery.enabled", false);
-user_pref("browser.discovery.sites", "http://127.0.0.1/")
+user_pref("browser.discovery.sites", "http://127.0.0.1/");
 user_pref("services.sync.prefs.sync.browser.startup.homepage", false);
-user_pref("browser.contentblocking.report.monitor.home_page_url", "http://127.0.0.1/")
+user_pref("browser.contentblocking.report.monitor.home_page_url", "http://127.0.0.1/");
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
 user_pref("browser.safebrowsing.enabled", false);
 user_pref("browser.safebrowsing.downloads.remote.enabled", false);
@@ -380,7 +380,7 @@ user_pref("browser.newtabpage.activity-stream.showTopSites",false);
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories",false);
 user_pref("browser.newtabpage.activity-stream.feeds.snippets",false);
 user_pref("browser.newtabpage.activity-stream.disableSnippets", true);
-user_user_pref("browser.newtabpage.activity-stream.tippyTop.service.endpoint", "");
+user_pref("browser.newtabpage.activity-stream.tippyTop.service.endpoint", "");
 
 // Enable xrender
 user_pref("gfx.xrender.enabled",true);
